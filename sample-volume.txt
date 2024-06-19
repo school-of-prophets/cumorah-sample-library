@@ -1,0 +1,34 @@
+volume: Sample Volume
+
+volume-path: /cumorah-sample-library/sample-volume/
+
+volume-aka: A Book of Books
+
+volume-sum: It is common for collections of books to be printed in a single volume. For instance, the Bible and the Book of Mormon are both Books which have inside them books.
+
+volume-sum: Furthermore, just as the bible contains both an old and new testament, which are sub-volumes, so lets see what that looks like.
+
+sub-volume: Old Books
+
+sub-volume-aka: These are older than the other ones.
+
+sub-volume-sum: Act like there's more than one book in here, and act like it has some content inside.
+
+book: Ye Olde Book
+book-path: /cumorah-sample-library/sample-volume/ye-olde-book/
+book-aka: An Old Example of a Book
+
+chapter: chapter 1
+chapter-path: /cumorah-sample-library/sample-volume/ye-olde-book/1
+. imagine content.
+
+
+---
+sub-volume: Newer Books
+
+sub-volume-aka: These are newer than those other ones.
+
+sub-volume-sum: work with me here.
+
+include: sample-book.txt
+

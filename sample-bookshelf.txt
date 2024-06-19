@@ -1,0 +1,7 @@
+bookshelf: A Shelf For Books
+bookshelf-path: /cumorah-sample-library/sample-bookcase/sample-bookshelf
+bookshelf-aka: Sample bookshelf
+bookshelf-sum: Shelves hold volumes.
+bookshelf-sum: I imagine we'll want these bigger containers like shelves to have smaller items like books or chapters.
+bookshelf-sum: Imagine this bookshelf having more than just this one volume.
+include: sample-volume.txt

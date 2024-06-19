@@ -1,0 +1,9 @@
+chapter: Chapter 5
+
+chapter-path: /cumorah-sample-library/volume1/sample-book/chapter-5
+
+. You can divide things out if you want by including a file into another one.
+
+. For instance this chapter could have been left in the sample-book file, but it was pulled out, for whatever reason.
+
+. Some people divide things up to keep the files small and easy to work with.  Other people keep them in one big file so they are together and easier to maintain.  We dont take a stand on how you should break up and organize the content, we just make it possible with the include tag.

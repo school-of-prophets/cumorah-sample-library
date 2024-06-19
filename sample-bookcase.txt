@@ -1,0 +1,36 @@
+bookcase: Sample Bookcase
+
+bookcase-path: /cumorah-sample-library/sample-bookcase/
+
+bookcase-aka: An Exemplary Bookcase
+
+bookcase-sum: We need an example of how to make a bookcase.
+
+bookcase-sum: A thing that demos all the features[*].
+[*] yes even footnotes.
+
+/*
+    this is a comment, you know that because it is a line that starts with slash star
+    its just a way to explain something about the code
+    it continues to be a comment until a line that ends in star slash
+*/
+
+/* sometimes you want one line to both start and end with one comment like this */
+
+---
+sub-bookcase: This is a Sub-Bookcase
+
+sub-bookcase-aka: A grouping of bookshelves within the bookcase
+
+sub-bookcase-sum: I have no idea why you would want to do this, but its supported.
+
+sub-bookcase-sum: Mostly because we wanted to be consistent, and other things had sub-groupings, so we decided to just run with it[a].
+[a] same logic applies to footnotes at this level.  should we have supported this? only time will tell.
+
+
+---
+/* rather than include the definition of this bookshelf here, 
+which we could have done if we wanted, 
+we decided to cut it out and put it in its own file, and just include it here */
+
+include: sample-bookshelf.txt

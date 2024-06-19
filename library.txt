@@ -1,0 +1,20 @@
+/* 
+    a library file is like a table of contents
+    in this file, you list out the things that you 
+    would consider "Top level" stuff.
+*/
+library: Sample Library
+
+library-aka: Example Cumorah Archive
+
+/* the top level path of any reader is always just slash */
+library-path: "/"
+
+library-sum: You probably want to know what's in this library, so I'll give a quick summary here.
+
+---
+include: about.txt
+
+---
+include: sample-bookcase.txt
+

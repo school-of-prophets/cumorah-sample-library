@@ -1,0 +1,148 @@
+book: Sample Book
+
+book-aka: A Book of Samples
+
+book-sum: This book has all the things that books do
+
+chapter: Chapter 1
+
+chapter-path: /cumorah-sample-library/volume1/sample-book/chapter-1
+
+chapter-aka: A Sample Chapter
+
+chapter-aka: The First of All the Chapters
+
+chapter-sum: This is a nice summary of what is in the chapter.
+
+chapter-sum: Sometimes summaries have multiple paragraphs.
+
+chapter-sum: So this one has three.
+
+1. This is verse 1.  It is the first of the verses in this chapter.
+
+2. Verses start with a label followed by a period / dot.
+
+3. The verse label is often a number, but can be more than that.
+
+4[Four]. Sometimes, its convenient to acknowledge that a verse might have a different designation in other similar texts.  Its kind of like a verse "aka" tag. But, to keep it tight, we put the verse's aka in squair brackets.
+
+5. After the period at the end of the verse label, comes a space, and then the content of the verse.
+
+6. Its also possible to have a more poetic structure to the text.  You can force new lines for a verse and it will "save" the new line, but you must start the lines that are intended to be in the previous verse and not the beginning of a new one with at least 1 space like so...
+
+sub-chapter: A Poem
+sub-chapter-aka: Barely Acceptable Poetry
+sub-chapter-sum: Sometimes you just need to have a little break and wax poetic, and this appears to have happened here.
+
+7. Roses are red,
+   Violets are blue,
+   Who likes a good picnic?
+   Yogi and Boo-boo.
+
+8. the space at the beginning makes it easy to avoid ambiguity that might be interpreted in another way.
+
+. Sometimes people want paragraph / sentences that are unlabeled.  That's totally fine, but the period at the beginning, followed by a space is still required.
+
+. Its totally ok to have multiple unlabeled verses.
+
+
+
+
+---
+chapter: Chapter 2
+
+chapter-path: /cumorah-sample-library/volume1/sample-book/chapter-2
+
+chapter-aka: A Note about Feet[a]
+
+chapter-sum: This chapter explains the rules for footnotes[1]
+[a] Not real feet, footnotes.
+[1] Notice that the chapter sum and aka and other meta data could have footnotes if you want.
+
+. footnotes are put into square brackets[a].
+[a] Square brackets look like this [[ ]].
+
+. Notice that in order to include actual square brackets in the text, you have to use double brackets.
+
+. Also, trying to put a footnote[ok] in a footnote is not a thing.
+[ok] Its ok to have a footnote, but not ok to add a note inside of a footnote[b] like that.
+[b] this one isn't legit.  If you have a use case for this, lets chat, but ... please don't.
+
+. The system thinks of the footnote as "belonging" to the word immediately before it[1]. But sometimes this is just [unsufficient to explain your purpose|2] so we have this other way of doing it.
+[1] like this.
+[2] You can loop in a more specific set of words that you are foot-noting, which helps in platforms that turn the footnote word into a clickable link.
+
+---
+
+sub-book: Division of Chapters
+
+sub-book-aka: For grouping Chapters
+
+sub-book-sum: if you need to group a few chapters into a thing by inserting some info, but its still the same "book" this is a way to do that.
+
+---
+chapter: Chapter 3
+
+chapter-path: /cumorah-sample-library/volume1/sample-book/chapter-3
+
+chapter-aka: Using "rich" text.
+
+a. You can add **bold** and or //italics// to things.
+
+b. the **bold words can be started, and ended** using double-stars * *.
+
+c. italics //can be started and ended using// double slashes.
+
+d. it **does NOT work
+if you try** to span multiple lines or verses
+with one set of double stars or double slashes.
+sorry.
+
+e. The **right way to do that**
+   **is to just** add the double stars or slashes to both lines.
+    again, sorry.
+
+4. I'm hoping you are picking up what I'm putting down here.
+
+
+
+---
+chapter: Chapter 4
+
+chapter-path: /cumorah-sample-library/volume1/sample-book/chapter-4
+
+chapter-aka: Images and Glyphs
+
+chapter-sum: It is sometimes necessary to add images to your content.
+
+sub-chapter: SVG
+sub-chapter-aka: Structured Vector Graphics
+
+. SVG files are practically perfect in every way please use them if you possibly can.  And if you cant, ask chatgpt to help you find a way to use them instead of pngs and jpegs stuff.
+
+svg: path/to/file.svg
+svg-name: Title for this Images
+svg-aka: Alternate Title
+svg-sum: a good place to put a caption or something[a]
+svg-notes: [b] [c] [1] [i] [ii] [iii] [iv]
+[a] this
+[b] that
+[1] that one thing
+[i] roman numerals
+[ii] two roman numerals
+[iii] three would be better
+[iv] what did roman paramedics call I.V.s anyway?
+
+. The svg-notes tag is there to claim the footnotes for the svg.
+. This is because sometimes the image itself has footnote tags that are visible to the reader.
+. so, this enables the notes to be mapped up and the notes associated with the image itself.
+. of course, like note "a" above, you can scatter footnote references into the headings and summary meta-data, because, of course you will ask for that.
+
+sub-chapter: PNG
+sub-chapter-aka: The Inferior Option
+
+. PNG files are not as desirable, for so many reasons.  So we haven't taken time to make it work yet.
+
+
+---
+include: sample-chapter.txt

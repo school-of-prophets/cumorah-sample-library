@@ -1,0 +1,16 @@
+chapter: About
+chaper-aka: Forward, etc.
+chapter-path: /cumorah-sample-library/about
+
+sub-chapter: A Brief Explanation
+. some books have multiple pre-sections before the main content
+. so this shows how you could potentially do that sort of thing and collapse them all down into one top-level chapter.
+
+sub-chapter: Acknowledgements
+. you could acknowledge people here if you wanted
+
+sub-chapter: Dedication
+. this tool is dedicated to the honest believer that is willing to give and receive in sincerity.
+
+sub-chapter: Alternatives
+. just because we decided to use a single chapter for the opening meta content, doesnt mean you have to do that.  You could organize your meta content for your library into a book, volume, whatever.
